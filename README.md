@@ -1,8 +1,8 @@
-# Projet d'export d'emploi du temps de l'Université Versailles – Saint-Quentin-en-Yvelines (UVSQ) au format iCal
+# Projet d'export d'emploi du temps UVSQ au format iCal
 
 ## Description
 
-Ce projet fournit un script qui permet d'extraire les données d'emploi du temps du site `edt.uvsq.fr` et de les convertir en un fichier iCal. Cela vous permet d'intégrer facilement votre emploi du temps avec Google Agenda, Outlook ou toute autre application qui supporte le format iCal, tout en ayant une mise à jour dynamique des cours.
+Ce projet fournit un script **bash** qui permet d'extraire les données d'emploi du temps du site `edt.uvsq.fr` et de les convertir en un fichier iCal. Cela vous permet d'intégrer facilement votre emploi du temps avec Google Agenda, Outlook ou toute autre application qui supporte le format iCal. Pour une mise à jour dynamique des cours, il est nécessaire d'héberger le fichier iCal sur un serveur web accessible.
 
 ## Installation
 
@@ -37,7 +37,7 @@ git clone https://github.com/divulgacheur/UVSQ-calendar-exporter
 bash convert_edt_to_ical.sh > edt.ical
 ```
 
-Cela générera un fichier iCal que vous pouvez ensuite importer dans votre application de calendrier préférée.
+Le fichier généré pourra être importé dans votre application de calendrier préférée, ou bien mis à disposition de tous graĉe à un serveur web, ce qui permettra de mettre à jour le calendrier dynamiquement.
 
 ## Contribution
 
