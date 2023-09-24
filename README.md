@@ -1,7 +1,4 @@
-# UVSQ-calendar-exporter
-Script de conversion automatisé pour extraire les données d'`edt.uvsq.fr` et générer un fichier iCal
-
-# Projet d'export d'emploi du temps de l'Université Versailles Saint-Quentin (UVSQ) au format iCal
+# Projet d'export d'emploi du temps de l'Université Versailles – Saint-Quentin-en-Yvelines (UVSQ) au format iCal
 
 ## Description
 
